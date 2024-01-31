@@ -19,8 +19,6 @@ export default function App() {
               <div className='content'>
                 <CarouselBanner/>
                 <CarouselExclusive />
-                <CarouselBanner/>
-                <CarouselBanner/>
               </div>} />
               <Route path='/register' element={
               <Register />} />
@@ -36,8 +34,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fffff',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    // justifyContent: 'center', // Align items vertically
+    // alignItems: 'center', // Align items horizontally
+    backgroundColor: '#ffffff',
   }
 })
 

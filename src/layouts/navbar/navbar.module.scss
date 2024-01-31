@@ -16,7 +16,9 @@
     padding: 5px 5px;
   }
 
-  @media (max-width: 420px) {
+  @media (min-width: 310px) {
+    background: #e9ce4c;
+    height: 80px;
     padding: 5px 2px;
   }
 }
@@ -47,6 +49,7 @@
       border-radius: 50%;
     }
   }
+  
 }
 
 .navbar_logo {
@@ -54,7 +57,7 @@
   // font-weight: bold;
 
   img {
-    height: 40px;
+    height: 100px;
     width: 100px;
   }
 
@@ -65,8 +68,8 @@
     align-items: center;
 
     img {
-      height: 60px;
-      width: 60px;
+      height: 100%;
+      width: 90px;
     }
   }
 }
