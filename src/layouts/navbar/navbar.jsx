@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href='/'><img src={`src/assets/logo_V1.png`} /></a>
         </div>
         <div className={styles.hamburger}>
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" onClick={() => onCloseSidebar()}>
+          <svg width="52" height="32" viewBox="0 0 32 32" fill="none" onClick={() => onCloseSidebar()}>
             <path d="M5.33203 8H26.6654M5.33203 15.3333H26.6654M5.33203 22.6667H26.6654" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>

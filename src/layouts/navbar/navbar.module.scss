@@ -267,3 +267,31 @@
   height: 72px;
   background-color: rgba(154, 154, 154, 0.145);
 }
+
+.sidebarContent {
+  position: fixed;
+  padding: 100px 0 0 0;
+  height: 100%;
+  z-index: 100;
+  width: 100vw;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.close {
+  // position: fixed;
+  // display: flex;
+  color: white;
+  float: right;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.off {
+  display: none;
+}

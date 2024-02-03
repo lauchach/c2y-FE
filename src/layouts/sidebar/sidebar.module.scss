@@ -1,6 +1,6 @@
 .sidebarContent {
     position: fixed;
-    padding: 100px 0 0 0;
+    padding: 7px 0 0 0;
     height: 100%;
     z-index: 100;
     width: 100vw;
@@ -11,6 +11,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
 }
+
 .content {
     width: 80vw;
     background: #262626;
@@ -27,6 +28,7 @@
         right: 100vw;
         opacity: 0;
     }
+
     to {
         right: 0;
         opacity: 1;
@@ -38,6 +40,7 @@
         right: 100vw;
         opacity: 0;
     }
+
     to {
         right: 0vw;
         opacity: 1;
@@ -61,14 +64,15 @@
 
 .button {
     width: 100%;
-    height: 56px;
+    // height: 56px;
     border-radius: 8px;
     font-size: 16px;
-    background: #3ab66d;
+    // background: #3ab66d;
     color: #fff;
     font-weight: bold;
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
 }
+
 .button2 {
     width: 100%;
     height: 56px;
@@ -80,6 +84,7 @@
     font-weight: bold;
     margin-bottom: 16px;
 }
+
 .user {
     span {
         background: #7d7c7c;
@@ -88,14 +93,17 @@
         font-size: 48px;
         margin-right: 18px;
     }
+
     img {
         width: 48px;
         height: 48px;
         margin-right: 18px;
     }
 }
+
 .gapSidebar {
     gap: 16px;
+
     @media (max-width: 420px) {
         gap: 8px;
     }
@@ -106,9 +114,67 @@
     padding: 16px;
     border-radius: 8px;
 }
+
 .dropLang {
     background: #131313;
     margin-top: 12px;
     padding: 16px;
     border-radius: 8px;
+}
+
+
+.displayNone {
+    display: none;
+}
+
+.allbutton {
+    margin: 200px 0px 0px 0px;
+
+    .button {
+        display: flex;
+        padding: 12px 0px;
+        justify-content: center;
+        text-align: start;
+        gap: 24px;
+    
+        .inputCode {
+            width: 75%;
+            height: 50px;
+            border-radius: 8px;
+            background: #ffffff52;
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+        }
+    
+        .singin {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 80px;
+            padding: 0 24px;
+            background: #e9ce4c;
+            color: rgb(255, 255, 255);
+            border-radius: 24px;
+            font-size: 22px;
+            font-weight: 1;
+            border: 1px solid #e9ce4c;
+        }
+    
+        .singup {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 80px;
+            padding: 0 24px;
+            background: #ffffff;
+            color: #e9ce4c;
+            border-radius: 22px;
+            font-size: 22px;
+            font-weight: 1;
+            border: 1px solid #e9ce4c;
+        }
+    }
 }
