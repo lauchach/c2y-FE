@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styles from './sidebar.module.scss'
-import { Flex } from 'antd';
+import { useNavigate } from 'react-router-dom';
+
 
 const Sidebar = ({ isOpenSidebar, onCloseSidebar }) => {
+  const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false)
 
   const navigateTo = (path) => {

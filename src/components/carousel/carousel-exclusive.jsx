@@ -4,7 +4,13 @@ const carouselExclusive = () => {
   return (
     <>
       <div className={styles.carouselExclusive}>
-        <h1>Super Deal</h1>
+        <div className={styles.content}>
+          SUPER DEAL
+          <div className={styles.line}>
+            <div className={styles.linespace}>
+            </div>
+          </div>
+        </div>  
       </div>
     </>
   )
