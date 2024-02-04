@@ -30,7 +30,7 @@ const Navbar = () => {
     <>
       <nav className={styles.navbar}>
         <div className={styles.navbar_logo}>
-          <a href='/'><img src={`src/assets/logo_V1.png`} /></a>
+          <a href='/'><img src={`src/assets/logo_V1.png`} width="100%" height="auto"/></a>
         </div>
         <div className={styles.hamburger}>
           <svg width="52" height="32" viewBox="0 0 32 32" fill="none" onClick={() => onCloseSidebar()}>
