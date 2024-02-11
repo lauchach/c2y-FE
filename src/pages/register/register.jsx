@@ -15,7 +15,9 @@ const Register = () => {
         <div className={styles.insertbord}>
           <div className={styles.inrow}>
           ชื่อ
-          นามสกุล
+            <div className={styles.samerow}>
+              นามสกุล
+            </div>
           </div>
           <div className={styles.inrow}>
             <input id="email" type='text' placeholder="กรอกชื่อ" ></input>
@@ -30,9 +32,9 @@ const Register = () => {
           </div>
           <input id="email" type='text' placeholder="กรอกชื่อ" ></input>
           <div className={styles.inrow}>
-          ระหัสผ่าน
+          รหัสผ่าน
           </div>
-          <input id="email" type='text' placeholder="กรอกชื่อ" ></input>
+          <input id="email" type='text' placeholder="กรอกรหัสผ่าน" ></input>
           <div className={styles.inrow}>
           ของขวัญวันเกิดรอคุณอยู่
           </div>
