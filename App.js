@@ -23,7 +23,7 @@ export default function App() {
               <Route path='/register' element={
               <Register />} />
           </Routes>
-          <Text>Open up App.js to start working on your app in this!</Text>
+          {/* <Text>Open up App.js to start working on your app in this!</Text> */}
           <AppFooter />
         </View>
         </ScrollView>
